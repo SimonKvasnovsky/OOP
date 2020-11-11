@@ -1,0 +1,13 @@
+C:\Users\Simon\Source\Repos\SimonKvasnovsky\OOP\obj\Debug\netcoreapp3.1\Open-Lab-10.00.csprojAssemblyReference.cache
+C:\Users\Simon\Source\Repos\SimonKvasnovsky\OOP\obj\Debug\netcoreapp3.1\Open-Lab-10.00.AssemblyInfoInputs.cache
+C:\Users\Simon\Source\Repos\SimonKvasnovsky\OOP\obj\Debug\netcoreapp3.1\Open-Lab-10.00.AssemblyInfo.cs
+C:\Users\Simon\Source\Repos\SimonKvasnovsky\OOP\obj\Debug\netcoreapp3.1\Open-Lab-10.00.csproj.CoreCompileInputs.cache
+C:\Users\Simon\Source\Repos\SimonKvasnovsky\OOP\bin\Debug\netcoreapp3.1\Open-Lab-10.00.exe
+C:\Users\Simon\Source\Repos\SimonKvasnovsky\OOP\bin\Debug\netcoreapp3.1\Open-Lab-10.00.deps.json
+C:\Users\Simon\Source\Repos\SimonKvasnovsky\OOP\bin\Debug\netcoreapp3.1\Open-Lab-10.00.runtimeconfig.json
+C:\Users\Simon\Source\Repos\SimonKvasnovsky\OOP\bin\Debug\netcoreapp3.1\Open-Lab-10.00.runtimeconfig.dev.json
+C:\Users\Simon\Source\Repos\SimonKvasnovsky\OOP\bin\Debug\netcoreapp3.1\Open-Lab-10.00.dll
+C:\Users\Simon\Source\Repos\SimonKvasnovsky\OOP\bin\Debug\netcoreapp3.1\Open-Lab-10.00.pdb
+C:\Users\Simon\Source\Repos\SimonKvasnovsky\OOP\obj\Debug\netcoreapp3.1\Open-Lab-10.00.dll
+C:\Users\Simon\Source\Repos\SimonKvasnovsky\OOP\obj\Debug\netcoreapp3.1\Open-Lab-10.00.pdb
+C:\Users\Simon\Source\Repos\SimonKvasnovsky\OOP\obj\Debug\netcoreapp3.1\Open-Lab-10.00.genruntimeconfig.cache
