@@ -6,12 +6,13 @@ namespace Open_Lab_10._00
 {
     class Book
     {
-        private int Pages;
-        public string Title;
-        public void TitleAndPages()
-        {
-            Console.WriteLine("The title of the book is " + Title + " and it has " + Pages + " pages ");
-        }
-      
+        private int pages;
+        private string title;
+        public string author;
+        public string category;
+        public string releaseDate;
+
     }
+    
 }
+

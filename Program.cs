@@ -8,9 +8,12 @@ namespace Open_Lab_10._00
         static void Main(string[] args)
         {         
             Book LOTR = new Book();
-            LOTR.Title = "šimon";
-            LOTR.Pages = 55;
-            LOTR.TitleAndPages();
+            LOTR.category = "Komédia";        
+            LOTR.author = "Šimon";  
+            LOTR.releaseDate = "20.11.2020";
+            Console.WriteLine(LOTR.category);
+            Console.WriteLine(LOTR.author);
+            Console.WriteLine(LOTR.releaseDate);
         }
     }
 }
