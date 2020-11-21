@@ -8,9 +8,9 @@ namespace Open_Lab_10._00
     {
         private int pages;
         private string title;
-        public string author;
-        public string category;
-        public string releaseDate;
+        private string author;
+        private string category;
+        private string releaseDate;
         public void GetPages(int Pages)
         {
             pages = Pages;
