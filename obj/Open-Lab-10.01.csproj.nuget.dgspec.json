@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Simon\\source\\repos\\SimonKvasnovsky\\OOP\\Open-Lab-10.01.csproj": {}
+    "C:\\Users\\Simon\\Source\\Repos\\SimonKvasnovsky\\OOP\\Open-Lab-10.01.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Simon\\source\\repos\\SimonKvasnovsky\\OOP\\Open-Lab-10.01.csproj": {
+    "C:\\Users\\Simon\\Source\\Repos\\SimonKvasnovsky\\OOP\\Open-Lab-10.01.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Simon\\source\\repos\\SimonKvasnovsky\\OOP\\Open-Lab-10.01.csproj",
+        "projectUniqueName": "C:\\Users\\Simon\\Source\\Repos\\SimonKvasnovsky\\OOP\\Open-Lab-10.01.csproj",
         "projectName": "Open-Lab-10.01",
-        "projectPath": "C:\\Users\\Simon\\source\\repos\\SimonKvasnovsky\\OOP\\Open-Lab-10.01.csproj",
+        "projectPath": "C:\\Users\\Simon\\Source\\Repos\\SimonKvasnovsky\\OOP\\Open-Lab-10.01.csproj",
         "packagesPath": "C:\\Users\\Simon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Simon\\source\\repos\\SimonKvasnovsky\\OOP\\obj\\",
+        "outputPath": "C:\\Users\\Simon\\Source\\Repos\\SimonKvasnovsky\\OOP\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Simon\\AppData\\Roaming\\NuGet\\NuGet.Config",
