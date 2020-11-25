@@ -6,39 +6,35 @@ namespace Open_Lab_10._00
 {
     class Book
     {
-        private int pages;
-        private string title;
-        private string author;
-        private string category;
-        private string releaseDate;
-        public void GetPages(int Pages)
+        private int Pages;
+        private string Title;
+        private string Author;
+        private string Category;
+        private int ReleaseDate;
+        public void SetPages(int pages)
         {
-            pages = Pages;
+            Pages = pages;
         }
-        public void GetTitle(string Title)
+        public void SetTitle(string title)
         {
-            title = Title;
+            Title = title;
         }                      
-        public void GetAuthor(string Author)
+        public void SetAuthor(string author)
         {
-            author = Author;
+            Author = author;
         }
-        public void GetCategory(string Category)
+        public void SetCategory(string category)
         {
-            category = Category;
+            Category = category;
         }
-        public void GetReleaseDate(string ReleaseDate)
+        public void SetReleaseDate(int releaseDate)
         {
-            releaseDate = ReleaseDate;
+            ReleaseDate = releaseDate;
         }
        
-        public void Datas()
+        public override string ToString()
         {
-            Console.WriteLine(pages);
-            Console.WriteLine(title);
-            Console.WriteLine(author);
-            Console.WriteLine(category);
-            Console.WriteLine(releaseDate);
+            return String.Format($"{ Pages}\n{Title}\n{ Author}\n{ Category}\n{ReleaseDate}");
         }
        
     }

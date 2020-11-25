@@ -8,12 +8,12 @@ namespace Open_Lab_10._00
         static void Main(string[] args)
         {         
             Book LOTR = new Book();
-            LOTR.GetPages(26);
-            LOTR.GetTitle("Šimonko's Book");
-            LOTR.GetAuthor("Šimon");
-            LOTR.GetCategory("Komédia");
-            LOTR.GetReleaseDate("30.11.2020");
-            LOTR.Datas();
+            LOTR.SetPages(26);
+            LOTR.SetTitle("Šimonko's Book");
+            LOTR.SetAuthor("Šimon");
+            LOTR.SetCategory("Komédia");
+            LOTR.SetReleaseDate(2020);
+            Console.WriteLine(LOTR.ToString());
 
 
         }
