@@ -14,37 +14,45 @@ namespace Open_Lab_10._00
         private int releaseDate;
         public int Pages   
         {
-            get { pages = Pages; return pages; }
+            get { return pages; }
             set 
             {
-                if(pages < 0)
+                if(value < 0)
                 {
                     pages = 1;
+                }
+                else
+                {
+                    pages = value;
                 }
             }
         }
         public string Title 
-        { get { title = Title; return title; }
-            set{; } 
+        { get { return title; }
+            set{ title = value; } 
         }
         public string Author
         {
-            get { author = Author; return author; }
-            set {; }
+            get { return author; }
+            set {author = value; }
         }
         public string Category
         {
-            get { category = Category; return category; }
-            set {; }
+            get { return category; }
+            set {category = value; }
         }
         public int ReleaseDate
         {
-            get { releaseDate = ReleaseDate; return releaseDate; }
+            get { return releaseDate; }
             set 
             {
-                if (ReleaseDate < 1450 || ReleaseDate > 2021)
+                if (value < 1450 || value > 2021)
                 {
-                    ReleaseDate = -1;
+                    releaseDate = -1;
+                }
+                else
+                {
+                    releaseDate = value;
                 }
             }
         }
