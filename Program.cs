@@ -6,13 +6,23 @@ namespace Open_Lab_10._00
     class Program
     {
         static void Main(string[] args)
-        {         
+        {
             Book LOTR = new Book();
-            LOTR.SetPages(26);
-            LOTR.SetTitle("Šimonko's Book");
-            LOTR.SetAuthor("Šimon");
-            LOTR.SetCategory("Komédia");
-            LOTR.SetReleaseDate(2020);
+            Console.WriteLine("Pocet stran : ");
+            LOTR.Pages = int.Parse(Console.ReadLine());
+        
+            Console.WriteLine("Zadaj nazov: ");
+            LOTR.Title = Console.ReadLine();
+
+            Console.WriteLine("Zadaj autora: ");
+            LOTR.Author = Console.ReadLine();
+
+            Console.WriteLine("Zadaj kategoriu: ");
+            LOTR.Category = Console.ReadLine();
+
+            Console.WriteLine("Zadaj datum vydania: ");
+            LOTR.ReleaseDate = int.Parse(Console.ReadLine());
+
             Console.WriteLine(LOTR.ToString());
 
 
