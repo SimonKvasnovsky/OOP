@@ -24,6 +24,12 @@ namespace Open_Lab_10._00
             LOTR.ReleaseDate = int.Parse(Console.ReadLine());
 
             Console.WriteLine(LOTR.ToString());
+            Book LOTR2 = new Book();
+            Console.WriteLine(LOTR2);
+            Book LOTR3 = new Book(1020, "2000");
+            Console.WriteLine(LOTR3);
+            Book HOBIT = new Book(20, "Šimonova kniha", "Simon", "Scifi", 2021);
+            Console.WriteLine(HOBIT);
 
 
         }

@@ -56,34 +56,35 @@ namespace Open_Lab_10._00
                 }
             }
         }
-
-        public void SetPages(int Pages1)
+        public Book()
         {
-            pages = Pages1;
-        }     
-        public void SetTitle(string Title1)
-        {
-            title = Title1;
+            this.pages = -1;
+            this.title = "-1";
+            this.author = "-1";
+            this.category = "-1";
+            this.releaseDate = -1;
         }
-        public void SetAuthor(string Author1)
+        public Book(int pagess, string titlee)
         {
-            author = Author1;
+            this.pages = pagess;
+            this.title = titlee;
+            this.author = "-1";
+            this.category = "-1";
+            this.releaseDate = -1;
         }
-        public void SetCategory(string Category1)
+        public Book(int Pages, string Title, string Author, string Category, int ReleaseDate)
         {
-            category = Category1;
-        }
-        public void SetReleaseDate(int ReleaseDate1)
-        {
-            releaseDate = ReleaseDate1;
+            pages = Pages;
+            title = Title;
+            author = Author;
+            category = Category;
+            releaseDate = ReleaseDate;
         }
 
         public override string ToString()
         {
             return String.Format($"{pages}\n{title}\n{author}\n{category}\n{releaseDate}");
         }
-
-
     }
 
 }
